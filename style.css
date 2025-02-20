@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    margin: 0;
+    text-align: center;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20241019/pngtree-nature-high-resolution-desktop-wallpaper-hd-image_16414250.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+#qrcode {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
